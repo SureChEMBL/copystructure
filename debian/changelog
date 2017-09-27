@@ -1,0 +1,23 @@
+golang-github-mitchellh-copystructure (0.0~git20161013.0.5af94ae-2) unstable; urgency=medium
+
+  * Replace golang-go with golang-any in Build-Depends
+
+ -- Konstantinos Margaritis <markos@debian.org>  Tue, 08 Aug 2017 20:47:45 +0300
+
+golang-github-mitchellh-copystructure (0.0~git20161013.0.5af94ae-1) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Dmitry Smirnov ]
+  * New upstream snapshot (Closes: #846717).
+  * Removed "golang-go" from Depends.
+  * Standards-Version: 3.9.8.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Wed, 07 Dec 2016 12:53:52 +1100
+
+golang-github-mitchellh-copystructure (0.0~git20160128.0.80adcec-1) unstable; urgency=medium
+
+  * Initial release (Closes: #818545).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Fri, 18 Mar 2016 08:05:09 +1100

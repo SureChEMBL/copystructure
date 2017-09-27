@@ -1,0 +1,26 @@
+Source: golang-github-mitchellh-copystructure
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-any,
+               golang-github-mitchellh-reflectwalk-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/mitchellh/copystructure
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-mitchellh-copystructure.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-mitchellh-copystructure.git
+XS-Go-Import-Path: github.com/mitchellh/copystructure
+
+Package: golang-github-mitchellh-copystructure-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         golang-github-mitchellh-reflectwalk-dev
+Description: library for deep copying values in Go
+ Copystructure is a Go library for deep copying values in Go.
+ .
+ This library can copy Go values that may contain reference values such as
+ maps, slices, or pointers, and copy their data as well instead of just
+ their references.
